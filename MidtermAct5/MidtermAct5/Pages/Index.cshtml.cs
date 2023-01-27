@@ -1,5 +1,5 @@
-﻿using MidtermAct5_.Infrastructure.Domain;
-using MidtermAct5_.Infrastructure.Domain.Models;
+﻿using MidtermAct5.Infrastructure.Domain;
+using MidtermAct5.Infrastructure.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;

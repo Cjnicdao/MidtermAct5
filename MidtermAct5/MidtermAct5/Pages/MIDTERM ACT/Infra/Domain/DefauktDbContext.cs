@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Reflection.Emit;
 
-namespace NeilMacabulos.Midterm_.Infrastructure.Domain
+namespace MidtermAct5.Infrastructure.Domain
 {
     public class DefaultDbContext : DbContext
     {
