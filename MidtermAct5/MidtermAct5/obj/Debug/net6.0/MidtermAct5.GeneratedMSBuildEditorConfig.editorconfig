@@ -51,12 +51,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluYWxzRXhhbVxNYW5hZ2VcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/FinalsExam/Manage/Products/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluYWxzRXhhbVxNYW5hZ2VcUHJvZHVjdHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Manage.cshtml]
