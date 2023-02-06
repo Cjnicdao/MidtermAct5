@@ -1,0 +1,8 @@
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.csproj.AssemblyReference.cache
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.AssemblyInfoInputs.cache
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.AssemblyInfo.cs
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.RazorAssemblyInfo.cache
+C:\Users\user\Documents\CSM\PRELIMSEXAM\MidtermAct5\MidtermAct5\MidtermAct5\obj\Debug\net6.0\MidtermAct5.RazorAssemblyInfo.cs
