@@ -59,14 +59,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Index1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgxLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Manage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/MIDTERM ACT/Infra/Domain/DefauktDbContext.cs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTUlEVEVSTSBBQ1RcSW5mcmFcRG9tYWluXERlZmF1a3REYkNvbnRleHQuY3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,6 +69,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Shared/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Shared/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4MS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Documents/CSM/PRELIMSEXAM/MidtermAct5/MidtermAct5/MidtermAct5/Pages/Shared/_ValidationScriptsPartial.cshtml]

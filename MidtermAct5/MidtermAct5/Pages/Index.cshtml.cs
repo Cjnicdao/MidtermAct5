@@ -2,9 +2,9 @@
 using MidtermAct5.Infrastructure.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
 
-namespace MidtermAc5_.Pages.Manage.Users
+
+namespace MidtermAct5_.Pages.Manage.Users
 {
     public class Index : PageModel
     {
