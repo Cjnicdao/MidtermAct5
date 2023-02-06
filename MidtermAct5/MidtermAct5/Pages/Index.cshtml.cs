@@ -8,7 +8,7 @@ namespace MidtermAct5_.Pages.Manage.Users
 {
     public class Index : PageModel
     {
-        private DefaultDbContext _context;
+        private DefaultDbContext_context;
         private ILogger<Index>
     _logger;
 

@@ -6,7 +6,7 @@ using System.Reflection.PortableExecutable;
 
 namespace MidtermAct5.Infrastructure.Domain.Model
 {
-    public class Products
+    public class products
     {
         public Guid? Id { get; set; }
         public string? Name { get; set; }

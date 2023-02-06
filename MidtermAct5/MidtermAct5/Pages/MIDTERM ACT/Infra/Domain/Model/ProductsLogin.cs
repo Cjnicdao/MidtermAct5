@@ -1,7 +1,7 @@
 
 namespace MidtermAct5.Infrastructure.Domain.Models
 {
-    public class ProductsLogin
+    public class productsLogin
     {
         public Guid? Id { get; set; }
         public Guid? UserId { get; set; }

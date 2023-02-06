@@ -1,16 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using MidtermAct5.Infrastructure.Domain.Model;
 using MidtermAct5.Infrastructure.Domain.Models;
-using System.Collections.Generic;
 using System.Data;
-using System.Reflection.Emit;
+using MidtermAct5.Infrastructure.Domain;
 
 namespace MidtermAct5.Infrastructure.Domain
+
 {
     public class DefaultDbContext : DbContext
     {
         public DefaultDbContext(DbContextOptions<DefaultDbContext> options)
-            : base(options)
+        : base(options)
         {
         }
 

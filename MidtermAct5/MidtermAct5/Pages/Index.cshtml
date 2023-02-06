@@ -1,8 +1,9 @@
 ﻿@page
 @model MidtermAct5_.Pages.Manage.Products.Index
+@{
 
-
-<h3>Users</h3>
+    <h3>Users</h3>
+}
 
 <div class="search">
     <i class="bi bi-search"></i>
@@ -37,7 +38,7 @@
                 @{
                     if (Model.View.RoleId != null)
                     {
-                        <option selected value="@Model.View.RoleId">@Model.View.RoleName</option>
+                                        <option selected value="@Model.View.RoleId">@Model.View.RoleName</option>
                     }
                 }
             </select>
@@ -50,49 +51,49 @@
 @{
     if (Model.View != null && Model.View.Users != null && Model.View.Users.Items != null && Model.View.Users.Items.Count > 0)
     {
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Email Address</th>
-                    <th scope="col">Role</th>
-                </tr>
-            </thead>
-            <tbody>
-                @{
+    <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Email Address</th>
+                                    <th scope="col">Role</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
                     foreach (var user in Model?.View?.Users.Items)
                     {
-                        <tr>
-                            <th scope="row">@user.Name</th>
-                            <td>@user.EmailAddress</td>
-                            <td>@user.Role?.Name</td>
-                        </tr>
+                                                        <tr>
+                                                            <th scope="row">@user.Name</th>
+                                                            <td>@user.EmailAddress</td>
+                                                            <td>@user.Role?.Name</td>
+                                                        </tr>
                     }
-                }
-            </tbody>
-        </table>
+                                }
+                            </tbody>
+    </table>
 
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                @{
+    <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                @{
                     if (Model?.View?.Users.PageIndex > 1)
                     {
-                        <li class="page-item"><a class="page-link" href="/manage/users?pageIndex=@(Model?.View?.Users.PageIndex-1)&pageSize=@(Model?.View?.Users.PageSize)&sortBy=@(Model?.View?.Users.SortBy)&sortOrder=@(Model?.View?.Users.SortOrder)&roleId=@(Model?.View?.RoleId)">Previous</a></li>
+                                                        <li class="page-item"><a class="page-link" href="/manage/users?pageIndex=@(Model?.View?.Users.PageIndex-1)&pageSize=@(Model?.View?.Users.PageSize)&sortBy=@(Model?.View?.Users.SortBy)&sortOrder=@(Model?.View?.Users.SortOrder)&roleId=@(Model?.View?.RoleId)">Previous</a></li>
                     }
 
-                    <li class="page-item"><span class="page-link">page @Model?.View?.Users.PageIndex of @Model?.View?.Users.PageCount (@Model?.View?.Users.TotalRows total rows)</span></li>
+                                                    <li class="page-item"><span class="page-link">page @Model?.View?.Users.PageIndex of @Model?.View?.Users.PageCount (@Model?.View?.Users.TotalRows total rows)</span></li>
 
 
                     if (Model?.View?.Users.PageIndex < Model?.View?.Users.PageCount)
                     {
-                        <li class="page-item"><a class="page-link" href="/manage/users?pageIndex=@(Model?.View?.Users.PageIndex+1)&pageSize=@(Model?.View?.Users.PageSize)&sortBy=@(Model?.View?.Users.SortBy)&sortOrder=@(Model?.View?.Users.SortOrder)&roleId=@(Model?.View?.RoleId)">Next</a></li>
+                                                        <li class="page-item"><a class="page-link" href="/manage/users?pageIndex=@(Model?.View?.Users.PageIndex+1)&pageSize=@(Model?.View?.Users.PageSize)&sortBy=@(Model?.View?.Users.SortBy)&sortOrder=@(Model?.View?.Users.SortOrder)&roleId=@(Model?.View?.RoleId)">Next</a></li>
                     }
-                }
-            </ul>
-        </nav>
+                                }
+                            </ul>
+    </nav>
     }
     else
     {
-        <div>There are no records to show.</div>
+    <div>There are no records to show.</div>
     }
-}
+    

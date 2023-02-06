@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace MidtermAct5.Infrastructure.Domain
+namespace MidtermAct5_.Infrastructure.Domain
 {
     public class Paged<T>
     {
